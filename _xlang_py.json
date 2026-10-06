@@ -1,0 +1,14 @@
+﻿python.exe : Traceback (most recent call last):
+At line:3 char:1
++ & .\backend\.venv\Scripts\python.exe _xlang_probe.py 2>&1 | Out-File  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\madhu\Desktop\sas-pyspark\_xlang_probe.py", line 26, in <module>
+    print(json.dumps(out, indent=2, ensure_ascii=False))
+  File "C:\Users\madhu\AppData\Roaming\uv\python\cpython-3.12.13-windows-x86_64-none\Lib\encodings\cp1252.py", line 
+19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 221-222: character maps to <undefined>

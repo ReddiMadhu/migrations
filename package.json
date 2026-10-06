@@ -1,0 +1,16 @@
+{
+  "name": "sas-pyspark-workspace",
+  "version": "0.1.0-dev",
+  "private": true,
+  "type": "module",
+  "description": "SAS to PySpark migration workbench — LangGraph Python backend + React frontend (pnpm workspace root)",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "frontend:dev": "pnpm --filter sas-pyspark-frontend dev",
+    "frontend:build": "pnpm --filter sas-pyspark-frontend build",
+    "backend:test": ".\\backend\\.venv\\Scripts\\pytest.cmd backend/tests"
+  }
+}
