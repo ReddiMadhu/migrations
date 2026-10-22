@@ -1,0 +1,9 @@
+customer_id,customer_name,region,segment,signup_date,email
+CUST001,  john  smith  ,NORTH,Enterprise,2020-03-15,john.smith@acme.com
+CUST002,jane   DOE,SOUTH,SMB,2019-07-22,jane.doe@globex.com
+CUST003,  ROBERT   johnson ,NORTH,Enterprise,2021-01-10,rjohnson@initech.com
+CUST004,maria   GARCIA,EAST,Mid-Market,2018-11-05,mgarcia@umbrella.com
+CUST005,JAMES    wilson,WEST,SMB,2022-06-30,jwilson@wayneent.com
+CUST006,sarah BROWN,EAST,Enterprise,2020-09-14,sbrown@stark.com
+CUST007, david    TAYLOR  ,SOUTH,Mid-Market,2023-02-28,dtaylor@oscorp.com
+CUST008,EMILY   martinez,WEST,SMB,2021-08-19,emartinez@lexcorp.com

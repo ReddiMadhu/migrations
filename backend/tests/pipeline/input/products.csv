@@ -1,0 +1,6 @@
+product_id,product_name,category,unit_cost,supplier,weight_kg
+PROD001,Widget Alpha,Hardware,25.00,SupplierA,0.5
+PROD002,Service Beta,Services,40.00,SupplierB,0.0
+PROD003,Module Gamma,Software,95.00,SupplierC,0.0
+PROD004,System Delta,Hardware,750.00,SupplierA,12.5
+PROD005,Part Epsilon,Hardware,15.00,SupplierD,0.25
