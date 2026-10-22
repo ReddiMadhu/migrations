@@ -177,6 +177,11 @@ quit;
 );
 
 
+/* Ensure output directory exists */
+options dlcreatedir;
+libname _outdir_ "&output_dir";
+libname _outdir_ clear;
+
 /* =========================================================================
    S9. Export Final Production CSV Outputs
    ========================================================================= */
@@ -205,7 +210,8 @@ run;
 %put NOTE: ================================================================ ;
 %put NOTE: SAS ETL PIPELINE EXECUTION COMPLETED SUCCESSFULLY ;
 %put NOTE: Timestamp: %sysfunc(datetime(), datetime20.) ;
-%put NOTE: Output 1 (enriched_transactions): %sysfunc(attrn(open(enriched_transactions), nobs)) rows ;
-%put NOTE: Output 2 (customer_summary):       %sysfunc(attrn(open(customer_summary), nobs)) rows ;
-%put NOTE: Output 3 (product_performance):    %sysfunc(attrn(open(product_performance), nobs)) rows ;
+%put NOTE: Output files generated in: &output_dir ;
+%put NOTE:   1. enriched_transactions.csv ;
+%put NOTE:   2. customer_summary.csv ;
+%put NOTE:   3. product_performance.csv ;
 %put NOTE: ================================================================ ;
